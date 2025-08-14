@@ -34,6 +34,30 @@
             "Drama",
             "Thriller"
           ]
+        },
+        {
+          "id": "0e1bba59-c710-46db-9ff1-9b4083e869bf",
+          "title": "Helo",
+          "time": 100,
+          "genres": [
+            "Horror"
+          ]
+        },
+        {
+          "id": "47420f5c-5da7-4d1b-848a-1417223ad050",
+          "title": "real",
+          "time": 122,
+          "genres": [
+            "gfdg"
+          ]
+        },
+        {
+          "id": "294a18ca-0c6c-40db-abda-dc00d27529a0",
+          "title": "ereer",
+          "time": 100,
+          "genres": [
+            "dfsf"
+          ]
         }
       ]
     },
@@ -75,6 +99,22 @@
             "Comedy",
             "Family",
             "Sci-Fi"
+          ]
+        },
+        {
+          "id": "b953a8e8-1252-4d00-a022-7c64b351a9c6",
+          "title": "Run",
+          "time": 100,
+          "genres": [
+            "horror"
+          ]
+        },
+        {
+          "id": "bb2d05f3-8c9d-4252-8efa-600497fffa84",
+          "title": "fesf",
+          "time": 100,
+          "genres": [
+            "fsfds"
           ]
         }
       ]
@@ -119,6 +159,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "f6bdbdc8-7076-4586-b8be-d7636217def6",
+      "name": "Jim",
+      "bio": "sdfjsdfsdfs",
+      "movies": [
+        {
+          "id": "15bc7357-c597-45b9-bf24-8d309d782628",
+          "title": "feesf",
+          "time": 100,
+          "genres": [
+            "fewfwf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a76a19d8-3684-459f-b812-ae6a84ffea89",
+      "name": "err",
+      "bio": "gfdg",
+      "movies": []
     }
   ]
 }

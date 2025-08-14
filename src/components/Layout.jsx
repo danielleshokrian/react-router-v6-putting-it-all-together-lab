@@ -1,23 +1,21 @@
-import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
+import Navbar from "../Navbar";
+import { useState, useEffect } from "react";
 
-export default function DirectorContainer() {
+export default function Layout() {
   const [directors, setDirectors] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:4000/directors")
-      .then((r) => r.json())
+      .then(r => r.json())
       .then(setDirectors)
       .catch(console.error);
   }, []);
 
   return (
-    <div>
-      <h1>Welcome to the Director's Directory!</h1>
-      {/* Provide directors state to nested routes */}
+    <>
+      <Navbar />
       <Outlet context={{ directors, setDirectors }} />
-    </div>
+    </>
   );
 }
-
-
